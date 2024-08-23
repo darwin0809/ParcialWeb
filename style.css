@@ -1,0 +1,62 @@
+
+.form-cont{
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    width: 300px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;}
+    
+body{
+    background-color: black;
+}
+label{
+    color: aliceblue;
+}
+#titulo{
+    color: bisque;
+    font-size: 50px;
+    font-family: fantasy;
+}
+#nombre{
+    font-size: larger;
+    color: aqua;
+}
+#redes{
+    color: yellow;
+    margin-top: 30px;
+}
+#trabajos{
+    color: greenyellow;
+    font-size: 20px;
+}
+.wsp{
+    width: 50px;
+    justify-self: center;
+}
+.inst{
+    width: 50px;
+    justify-self: center;
+}
+.lnd{
+    width: 50px;
+}
+.imagenes{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.foto{
+    display: flex;
+    width: 200px;
+    margin-top: 20px;
+}
+#trabajo{
+    background: none;
+    border-color: rgb(140, 148, 155);
+    width: 500px;
+    height: 70px;
+    color: aliceblue;
+}
