@@ -2,15 +2,17 @@
 .form-cont{
     display: grid;
     margin-bottom: 50px;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     width: 300px;
     justify-items: center;
     align-items: center;
     margin-bottom: 20px;}
     
+    
 body{
     background-color: black;
+
 }
 label{
     color: aliceblue;
@@ -19,6 +21,7 @@ label{
     color: bisque;
     font-size: 50px;
     font-family: fantasy;
+
 }
 #nombre{
     font-size: larger;
@@ -51,7 +54,9 @@ label{
 .foto{
     display: flex;
     width: 200px;
+    align-items: center;
     margin-top: 20px;
+    
 }
 #trabajo{
     background: none;
@@ -59,8 +64,47 @@ label{
     width: 500px;
     height: 70px;
     color: aliceblue;
+    grid-template-rows: 1fr;
+}
+#trabajo:hover{
+    background-color: rgb(77, 81, 83);
+    color: black;
+    cursor: pointer;
 
 }
-.aa{
-    color: aliceblue;
+
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+.aaa{
+    border: 2cqh;
+    border-color: aliceblue;
+}
+.header {
+    background-color: #141414;
+    padding: 10px 0;
+}
+.nav {
+    display: flex;
+    justify-content: center; 
+}
+.nav-item {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+.nav-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: white;
 }
